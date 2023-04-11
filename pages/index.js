@@ -9,17 +9,22 @@ export default function Home() {
       <Head>
         <title>AI SF | May 15-19</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
-  
       <div className={styles.logoContainer}>
         <img src="/logosvg.svg" className={styles.logo} alt="AI SF Logo" />
       </div>
 
-          {/* <div className={styles.banner}>
+      {/* <div className={styles.banner}>
         ANNOUNCING SOON
       </div> */}
-
 
       <main>
         <div className={styles.body}>
