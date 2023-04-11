@@ -16,14 +16,14 @@ export default function Home() {
         <img src="/logosvg.svg" className={styles.logo} alt="AI SF Logo" />
       </div>
 
-          <div className={styles.banner}>
-        15th-19th May 2023
-      </div>
+          {/* <div className={styles.banner}>
+        ANNOUNCING SOON
+      </div> */}
 
 
       <main>
         <div className={styles.body}>
-          <p className={styles.header}>AI SF</p>
+          <p className={styles.header}>May 15-19</p>
           <p className={styles.description}>
             {" "}
             Join the world's most influential AI summit in SF, where leaders
