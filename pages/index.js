@@ -27,9 +27,7 @@ export default function Home() {
           <p className={styles.header}><p className={styles.header}><span>an AI week</span><br /><span>for Builders</span></p>
 </p>
           <p className={styles.description}>
-            {" "}
-            Join the world's most influential AI summit in SF, where leaders
-            from diverse industries come together to shape the future of AI.
+          This isn’t your usual conference. May 15 - 19. More details announced soon.
           </p>
           <div
             className={styles.button}
