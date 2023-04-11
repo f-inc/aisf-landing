@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('/bg.png');
+  background-image: url("/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,7 +18,7 @@
   position: absolute;
   top: 10vh;
   height: 50px;
-  background-color: #01FF69;
+  background-color: #01ff69;
   color: black;
   font-size: 1rem;
   text-align: center;
@@ -30,7 +30,7 @@
   align-items: center;
   position: absolute;
   left: 5vw;
-  top: 5vh
+  top: 5vh;
 }
 
 .logo {
@@ -40,23 +40,22 @@
 
 @media (max-width: 600px) {
   .logoContainer {
-    left:12vw;
-    top: 5vh
+    left: 12vw;
+    top: 5vh;
   }
-    .banner {
-      top: 11vh;
-    }
+  .banner {
+    top: 11vh;
+  }
 }
 
 .body {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   width: 100vw;
-  min-height: 60vh;
-  /* background-color: red; */
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  min-height: 50vh;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   text-align: center;
   font-size: 2rem;
@@ -113,20 +112,19 @@
   height: 30px;
   font-size: medium;
   padding: 1.5rem 2rem;
-  border: 2px solid ;
-  border-image: linear-gradient(to right, #00FFFC, #5C23FF, #EBC1FF) 1;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #00fffc, #5c23ff, #ebc1ff) 1;
   /* border-radius: 24px; */
   background-color: black;
   color: white;
   font-weight: 400;
-  transition: all 0.2s ease-in-out; /* Add a transition effect for all properties */
+  transition: all 0.3s ease-in-out; /* Add a transition effect for all properties */
   cursor: pointer; /* Add this line to set the cursor to pointer by default */
 }
 
 .button:hover {
   cursor: hand; /* Change the cursor to a hand icon on hover */
   background-color: #222222;
-  border-image: linear-gradient(to right, #EBC1FF, #00FFFC, #5C23FF, ) 1;
-  transition: all 0.2s ease-in-out; /* Add a transition effect for all properties */
-
+  border-image: linear-gradient(to right, #ebc1ff, #00fffc, #5c23ff) 1;
+  transition: all 0.4s ease-in-out; /* Add a transition effect for all properties */
 }

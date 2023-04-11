@@ -24,10 +24,9 @@ export default function Home() {
 
       <main>
         <div className={styles.body}>
-          <p className={styles.header}><p className={styles.header}><span>an AI week</span><br /><span>for Builders</span></p>
-</p>
+        <p className={styles.header}>AI SF</p>
           <p className={styles.description}>
-          This isn’t your usual conference. May 15 - 19. More details announced soon.
+          This isn’t your usual conference. May 15 - 19.
           </p>
           <div
             className={styles.button}
