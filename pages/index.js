@@ -7,15 +7,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>omar waseem</title>
+        <title>AI SF | May 15-19</title>
         <link rel="icon" href="/favicon.ico" />
-
-        {/* Load the Roboto Mono font from Google Fonts */}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
-        />
       </Head>
+
+  
+      <div className={styles.logoContainer}>
+        <img src="/logosvg.svg" className={styles.logo} alt="AI SF Logo" />
+      </div>
+
+          <div className={styles.banner}>
+        15th-19th May 2023
+      </div>
+
 
       <main>
         <div className={styles.body}>

@@ -1,18 +1,53 @@
 /* home.module.css */
 
 .container {
-  min-height: 100vh;
-  min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-image: url('/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
- 
-  
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  top: 10vh;
+  height: 50px;
+  background-color: #01FF69;
+  color: black;
+  font-size: 1rem;
+  font-family: 'PlusJakartaSans-Variable';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 5vw;
+  top: 5vh
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .logoContainer {
+    left:12vw;
+    top: 5vh
+  }
+    .banner {
+      top: 10vh;
+    }
+}
 
 .body {
   display: flex;
@@ -21,10 +56,9 @@
   align-items: center;
   width: 100vw;
   font-family: 'PlusJakartaSans-Variable';
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   font-size: 2rem;
-
 }
 
 @media (max-width: 600px) {
@@ -34,9 +68,10 @@
 }
 
 .header {
-font-size: 6rem;
-margin-bottom: 0;font-weight: bold;
-color: white;
+  font-size: 6rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: white;
 }
 
 .description {
