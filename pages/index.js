@@ -24,7 +24,8 @@ export default function Home() {
 
       <main>
         <div className={styles.body}>
-          <p className={styles.header}>May 15-19</p>
+          <p className={styles.header}><p className={styles.header}><span>an AI week</span><br /><span>for Builders</span></p>
+</p>
           <p className={styles.description}>
             {" "}
             Join the world's most influential AI summit in SF, where leaders
