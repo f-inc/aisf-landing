@@ -15,14 +15,14 @@ export default function Home() {
           title: "AI SF | May 15-19",
           description:
             "This isn’t your usual conference. May 15-19. More details announced soon.",
-          images: [
-            {
-              url: "https://aisf.co/preview-image.png",
-              width: 1200,
-              height: 630,
-              alt: "Preview Image",
-            },
-          ],
+          // images: [
+          //   {
+          //     url: "https://aisf.co/preview-image.png",
+          //     width: 1200,
+          //     height: 630,
+          //     alt: "Preview Image",
+          //   },
+          // ],
           site_name: "AI SF",
         }}
       />
@@ -37,7 +37,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:image" content="https://aisf.co/preview-image.png" />
+        {/* <meta property="og:image" content="https://aisf.co/preview-image.png" /> */}
       </Head>
 
       <div className={styles.logoContainer}>
