@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { DefaultSeo } from "next-seo";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -6,6 +7,26 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <DefaultSeo
+        title="AI SF | May 15-19"
+        description="This isn’t your usual conference. May 15-19. More details announced soon."
+        openGraph={{
+          url: "https://aisf.co",
+          title: "AI SF | May 15-19",
+          description:
+            "This isn’t your usual conference. May 15-19. More details announced soon.",
+          images: [
+            {
+              url: "https://aisf.co/preview-image.png",
+              width: 1200,
+              height: 630,
+              alt: "Preview Image",
+            },
+          ],
+          site_name: "AI SF",
+        }}
+      />
+
       <Head>
         <title>AI SF | May 15-19</title>
         <link rel="icon" href="/favicon.ico" />
@@ -16,6 +37,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <meta property="og:image" content="https://aisf.co/preview-image.png" />
       </Head>
 
       <div className={styles.logoContainer}>
@@ -24,9 +46,9 @@ export default function Home() {
 
       <main>
         <div className={styles.body}>
-        <p className={styles.header}>AI SF</p>
+          <p className={styles.header}>AI SF</p>
           <p className={styles.description}>
-          This isn’t your usual conference. May 15 - 19.
+            This isn’t your usual conference. May 15 - 19.
           </p>
           <div
             className={styles.button}
@@ -37,7 +59,6 @@ export default function Home() {
         </div>
       </main>
 
-      
       <style jsx global>{`
         html,
         body {
