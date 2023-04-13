@@ -18,7 +18,7 @@ function BoxRow() {
         <div className={styles.box}>
           <div className={styles.boxContent}>
             <div className={styles.boxImage}>
-              <Image src="/keyboard.svg" alt="Keyboard" width={32} height={32} />
+              <Image src="/summit.svg" alt="Keyboard" width={32} height={32} />
             </div>
             <p className={styles.boxText}>Summit</p>
           </div>
@@ -27,7 +27,7 @@ function BoxRow() {
         <div className={styles.box}>
           <div className={styles.boxContent}>
             <div className={styles.boxImage}>
-              <Image src="/keyboard.svg" alt="Keyboard" width={32} height={32} />
+              <Image src="/events.svg" alt="Keyboard" width={32} height={32} />
             </div>
             <p className={styles.boxText}>Events</p>
           </div>

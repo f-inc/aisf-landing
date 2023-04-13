@@ -2,25 +2,24 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    /* background-color: red; */
   }
   
   .row {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 960px;
   }
   
   .box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 30%;
-    max-width: 300px;
-    height: 250px;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
+    align-items: start;
+    width: 33.3333%;
+    height: 15vh;
+    border: 0.5px solid #ddd;
+    padding: 2vw;
   }
   
   .boxContent {
@@ -38,8 +37,11 @@
   
   .boxText {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 400;
     margin: 0;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
   }
   
   .boxSubtext {
@@ -48,5 +50,7 @@
     margin: 0;
     text-align: center;
     color: #666;
+      font-family: "Plus Jakarta Sans", sans-serif;
+
   }
   
