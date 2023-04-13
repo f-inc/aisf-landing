@@ -19,10 +19,9 @@
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: start;
   width: 33.3333%;
-  height: 15vh;
+  height: 12vh;
   border: 0.5px solid rgba(255, 255, 255, 0.12);
   padding: 2vw;
 }
@@ -53,7 +52,7 @@
 }
 
 .boxSubtext {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   margin-left: 42px;
   margin-top: 5px;
@@ -67,7 +66,7 @@
     .container {
       display: flex;
       position: relative;
-      bottom: 1px;
+      bottom: 0.1px;
     }
 
     .row {
@@ -79,7 +78,8 @@
         width: 100vw;
         height: 15vh;
         min-height: 150px;
-        padding: 0 10vw; 
+        padding: 10vw; 
+
         justify-content: center;
         /* align-items: center; */
 

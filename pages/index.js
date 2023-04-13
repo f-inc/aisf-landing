@@ -55,7 +55,7 @@ export default function Home() {
           </p>
 
           <p className={styles.description}>
-            Experience the next frontier of AI in SF, where the brightest
+            May 15 - 19. Experience the next frontier of AI in SF, where the brightest
             builders come together to push the boundaries of possibility.{" "}
           </p>
           <div
