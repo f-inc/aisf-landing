@@ -1,35 +1,52 @@
-/* BoxRow.module.css */
-
-.row {
+.container {
+    width: 100%;
     display: flex;
     justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    max-width: 960px;
   }
   
   .box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    width: 33.333333%;
-    height: 150px;
-    border: solid;
-    border-color: grey;
-    border-width: 1px 1px 1px 1px;
-    padding: 1vw;
+    align-items: center;
+    width: 30%;
+    max-width: 300px;
+    height: 250px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .boxContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .boxImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
   }
   
   .boxText {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: white;
-    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
   }
   
   .boxSubtext {
-    font-size: 1rem;
-    font-weight: lighter;
-    color: white;
-    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    color: #666;
   }
   
