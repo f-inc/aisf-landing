@@ -2,6 +2,8 @@ import Head from "next/head";
 import { DefaultSeo } from "next-seo";
 import styles from "../styles/Home.module.css";
 
+import BoxRow from '../components/BoxRow';
+
 export default function Home() {
   const typeformUrl = "https://1aps2l5da57.typeform.com/to/tpgvDnhX";
 
@@ -57,6 +59,8 @@ export default function Home() {
             <p> SAVE YOUR SPOT </p>
           </div>
         </div>
+        <BoxRow />
+
       </main>
 
       <style jsx global>{`
