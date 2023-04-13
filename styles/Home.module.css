@@ -4,10 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 101vh;
+  background-color: black;
   background-image: url("/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .banner {
@@ -64,13 +66,15 @@
 /* Add a media query for larger screens */
 @media (min-width: 601px) {
   .body {
-    min-height: 80vh; /* Set the minimum height for larger screens */
+    min-height: 80vh; /* Set the minimum height for larger screens */;
   }
 }
 
 @media (max-width: 600px) {
   .body {
     width: 100vw;
+    min-height: 80vh;
+    /* background-color: red; */
   }
 }
 
@@ -79,7 +83,7 @@
   margin-bottom: 0;
   font-weight: 700;
   color: white;
-  line-height: 110%;
+  line-height: 110%;;
 }
 
 .description {

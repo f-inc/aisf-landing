@@ -2,7 +2,7 @@ import Head from "next/head";
 import { DefaultSeo } from "next-seo";
 import styles from "../styles/Home.module.css";
 
-import BoxRow from '../components/BoxRow';
+import BoxRow from "../components/BoxRow";
 
 export default function Home() {
   const typeformUrl = "https://1aps2l5da57.typeform.com/to/tpgvDnhX";
@@ -48,9 +48,15 @@ export default function Home() {
 
       <main>
         <div className={styles.body}>
-          <p className={styles.header}>AI SF</p>
+          <p className={styles.header}>
+            <span>an AI week</span>
+            <br />
+            <span>for Builders</span>
+          </p>
+
           <p className={styles.description}>
-            This isn’t your usual conference. May 15 - 19.
+            Experience the next frontier of AI in SF, where the brightest
+            builders come together to push the boundaries of possibility.{" "}
           </p>
           <div
             className={styles.button}
@@ -60,7 +66,6 @@ export default function Home() {
           </div>
         </div>
         <BoxRow />
-
       </main>
 
       <style jsx global>{`
