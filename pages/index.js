@@ -55,8 +55,7 @@ export default function Home() {
           </p>
 
           <p className={styles.description}>
-            May 15 - 19. Experience the next frontier of AI in SF, where the brightest
-            builders come together to push the boundaries of possibility.{" "}
+            May 15 - 19. This isn’t your usual conference.{" "}
           </p>
           <div
             className={styles.button}

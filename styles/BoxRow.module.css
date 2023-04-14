@@ -78,8 +78,8 @@
         width: 100vw;
         height: 15vh;
         min-height: 150px;
-        padding: 10vw; 
-
+        padding: 12vh 10vw; 
+/* background-color: red; */
         justify-content: center;
         /* align-items: center; */
 
