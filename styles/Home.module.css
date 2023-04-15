@@ -12,32 +12,17 @@
 
 }
 
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  position: absolute;
-  top: 10vh;
-  height: 50px;
-  background-color: #01ff69;
-  color: black;
-  font-size: 1rem;
-  text-align: center;
-  /* padding: 20px 0; */
-}
-
 .logoContainer {
   display: flex;
   align-items: center;
   position: absolute;
   left: 5vw;
   top: 5vh;
+  cursor: pointer;
 }
 
-.logo {
-  height: 20px;
-  width: auto;
+.logoContainer :hover {
+  cursor: hand;
 }
 
 @media (max-width: 600px) {
@@ -46,6 +31,13 @@
     top: 5vh;
   }
 }
+
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
 
 .body {
   display: flex;
@@ -58,6 +50,7 @@
   font-weight: 700;
   text-align: center;
   font-size: 2rem;
+  padding-bottom: 5vh;
 }
 
 /* Add a media query for larger screens */
@@ -76,9 +69,16 @@
   }
 }
 
+
+.gradientlogo {
+  height: 100px;
+  width: auto;
+}
+
 .header {
   font-size: 6rem;
   margin-bottom: 0;
+  margin-top: 5vh;
   font-weight: 700;
   color: white;
   line-height: 110%;;

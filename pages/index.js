@@ -6,6 +6,7 @@ import BoxRow from "../components/BoxRow";
 
 export default function Home() {
   const typeformUrl = "https://1aps2l5da57.typeform.com/to/tpgvDnhX";
+  const fincUrl = "https://twitter.com/fdotinc";
 
   return (
     <div className={styles.container}>
@@ -42,12 +43,24 @@ export default function Home() {
         {/* <meta property="og:image" content="https://aisf.co/preview-image.png" /> */}
       </Head>
 
-      <div className={styles.logoContainer}>
-        <img src="/logosvg.svg" className={styles.logo} alt="AI SF Logo" />
+      <div
+        className={styles.logoContainer}
+        onClick={() => window.open(fincUrl, "_blank")}
+      >
+        <img
+          src="/finc.svg"
+          className={styles.logo}
+          alt="Founders, Inc. Logo"
+        />
       </div>
 
       <main>
         <div className={styles.body}>
+          <img
+            src="/gradsvg.svg"
+            className={styles.gradientlogo}
+            alt="AISF by Founders, Inc."
+          />
           <p className={styles.header}>
             <span>an AI week</span>
             <br />
