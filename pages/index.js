@@ -16,8 +16,7 @@ export default function Home() {
         openGraph={{
           url: "https://aisf.co",
           title: "AI SF | May 15-19",
-          description:
-            "May 15 - 19. An AI week for builders.",
+          description: "May 15 - 19. An AI week for builders.",
           images: [
             {
               url: "https://aisf.co/preview-image.png",
@@ -42,57 +41,67 @@ export default function Home() {
         />
         {/* <meta property="og:image" content="https://aisf.co/preview-image.png" /> */}
       </Head>
-
-      <div
-        className={styles.logoContainer}
-        onClick={() => window.open(fincUrl, "_blank")}
-      >
-        <img
-          src="/finc.svg"
-          className={styles.logo}
-          alt="Founders, Inc. Logo"
-        />
-      </div>
-
-      <main>
-        <div className={styles.body}>
+      <div className={styles.main}>
+        <div
+          className={styles.logoContainer}
+          onClick={() => window.open(fincUrl, "_blank")}
+        >
           <img
-            src="/gradsvg.svg"
-            className={styles.gradientlogo}
-            alt="AISF by Founders, Inc."
+            src="/finc.svg"
+            className={styles.logo}
+            alt="Founders, Inc. Logo"
           />
-          <p className={styles.header}>
-            <span>an AI week</span>
-            <br />
-            <span>for Builders</span>
-          </p>
-
-          <p className={styles.description}>
-            May 15 - 19. This isn’t your usual conference.{" "}
-          </p>
-          <div
-            className={styles.button}
-            onClick={() => window.open(typeformUrl, "_blank")}
-          >
-            <p> SAVE YOUR SPOT </p>
-          </div>
         </div>
-        <BoxRow />
-      </main>
+        <div className={styles.banner}>
+          <div className={styles.date}>ay 15 - 19</div>
+          <div className={styles.date}>May 15 - 19</div>
+          <div className={styles.date}>May 15 - 19</div>
+          <div className={styles.date}>May 15 - 19</div>
+          <div className={styles.date}>May 15 - 19</div>
+          <div className={styles.date}>May 15 - 19</div>
+          <div className={styles.date}>May 15 - 19</div>
+          <div className={styles.date}>May 15 </div>
+        </div>
+        <main>
+          <div className={styles.body}>
+            <img
+              src="/gradsvg.svg"
+              className={styles.gradientlogo}
+              alt="AISF by Founders, Inc."
+            />
+            <p className={styles.header}>
+              <span>an AI week</span>
+              <br />
+              <span>for Builders</span>
+            </p>
 
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+            <p className={styles.description}>
+              May 15 - 19. This isn’t your usual conference.{" "}
+            </p>
+            <div
+              className={styles.button}
+              onClick={() => window.open(typeformUrl, "_blank")}
+            >
+              <p> SAVE YOUR SPOT </p>
+            </div>
+          </div>
+          <BoxRow />
+        </main>
+
+        <style jsx global>{`
+          html,
+          body {
+            padding: 0;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+              sans-serif;
+          }
+          * {
+            box-sizing: border-box;
+          }
+        `}</style>
+      </div>
     </div>
   );
 }
