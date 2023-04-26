@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import BoxRow from "../components/BoxRow";
 
 export default function Home() {
-  const typeformUrl = "https://1aps2l5da57.typeform.com/to/tpgvDnhX";
+  const typeformUrl = "https://fdotinc.typeform.com/to/tpgvDnhX";
   const fincUrl = "https://twitter.com/fdotinc";
 
   return (
