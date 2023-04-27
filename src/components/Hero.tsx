@@ -14,7 +14,11 @@ const Hero = () => {
         May 15 - 19. This isn&#39;t your usual conference.
       </div>
 
-      <Link href="https://fdotinc.typeform.com/to/tpgvDnhX">
+      <Link
+        href="https://fdotinc.typeform.com/to/tpgvDnhX"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="relative w-72 h-16 group mt-14 lg:mt-16">
           <div className="absolute bg-button group-hover:bg-button-hover w-[292px] -ml-0.5 h-[68px] -mt-0.5 rounded-full transition-all duration-300 ease-in-out"></div>
 
