@@ -1,6 +1,7 @@
 import Image from "next/image";
 import AISF from "images/aisf.svg";
 import Info from "./Info";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,13 +14,15 @@ const Hero = () => {
         May 15 - 19. This isn&#39;t your usual conference.
       </div>
 
-      <div className="relative w-72 h-16 group mt-14 lg:mt-16">
-        <div className="absolute bg-button group-hover:bg-button-hover w-[292px] -ml-0.5 h-[68px] -mt-0.5 rounded-full transition-all duration-300 ease-in-out"></div>
+      <Link href="https://fdotinc.typeform.com/to/tpgvDnhX">
+        <div className="relative w-72 h-16 group mt-14 lg:mt-16">
+          <div className="absolute bg-button group-hover:bg-button-hover w-[292px] -ml-0.5 h-[68px] -mt-0.5 rounded-full transition-all duration-300 ease-in-out"></div>
 
-        <button className="bg-black absolute group-hover:bg-[#111] transition-all duration-200 flex items-center justify-center font-bold rounded-full h-16 w-72">
-          SAVE YOUR SPOT
-        </button>
-      </div>
+          <button className="bg-black absolute group-hover:bg-[#111] transition-all duration-200 flex items-center justify-center font-bold rounded-full h-16 w-72">
+            SAVE YOUR SPOT
+          </button>
+        </div>
+      </Link>
 
       <Info />
     </div>
