@@ -14,14 +14,12 @@ const jakarta = Plus_Jakarta_Sans({
 const Home = () => {
   return (
     <div
-      className={`${jakarta.className} flex justify-center w-full bg-[url("/images/background.png")] bg-cover min-h-screen`}
+      className={`${jakarta.className} w-full bg-[url("/images/background.png")] bg-cover min-h-screen`}
     >
       <SEO />
-      <div className="max-w-screen-2xl w-full">
-        <Header />
-        <Marquee />
-        <Hero />
-      </div>
+      <Header />
+      <Marquee />
+      <Hero />
     </div>
   );
 };

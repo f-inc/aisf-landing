@@ -7,7 +7,7 @@ const Header = () => {
     <div className="w-full p-5 font-jakarta">
       <div className="w-full h-[75px] border-[1px] rounded-full border-white/[.15] flex justify-between items-center">
         <Link href="https://twitter.com/fdotinc">
-          <Image src={FIncLogo} alt="F-Inc Logo" className="ml-10 h-8" />
+          <Image src={FIncLogo} alt="F-Inc Logo" className="ml-10 h-[37px] w-[33px]" />
         </Link>
         <div className="relative w-40 h-10 mr-5 group -mt-1">
           <div className="absolute bg-button group-hover:bg-button-hover w-[164px] -ml-0.5 h-12 -mt-0.5 rounded-full transition-all duration-300 ease-in-out"></div>
