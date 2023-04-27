@@ -19,10 +19,9 @@ const Hero = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="relative w-72 h-16 group mt-14 lg:mt-16">
-          <div className="absolute bg-button group-hover:bg-button-hover w-[292px] -ml-0.5 h-[68px] -mt-0.5 rounded-full transition-all duration-300 ease-in-out"></div>
-
-          <button className="bg-black absolute group-hover:bg-[#111] transition-all duration-200 flex items-center justify-center font-bold rounded-full h-16 w-72">
+        <div className="container relative w-72 h-16 group mt-14 lg:mt-16">
+          <div className="absolute gradient-button w-[292px] -ml-0.5 h-[68px] -mt-0.5 rounded-full transition-all duration-300 ease-in-out"></div>
+          <button className="bg-black absolute -mt-[66px] z-50 group-hover:bg-[#222] transition-all duration-300 flex items-center justify-center font-bold rounded-full h-16 w-72">
             SAVE YOUR SPOT
           </button>
         </div>
