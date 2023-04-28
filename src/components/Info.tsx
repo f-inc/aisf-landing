@@ -21,8 +21,8 @@ const Info = () => {
         <div className="-mt-1">
           <div className="font-semibold text-xl">Hackathon</div>
           <div className="opacity-75 mt-2">
-            Unlock your creativity and push the boundaries of AI at our exciting
-            hackathon event.
+            Join top experts and explore the latest in AI at the San Francisco
+            Summit.
           </div>
         </div>
       </div>

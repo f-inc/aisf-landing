@@ -1,6 +1,5 @@
 import Image from "next/image";
 import AISF from "images/aisf.svg";
-import Info from "./Info";
 import Link from "next/link";
 
 const Hero = () => {
@@ -26,8 +25,6 @@ const Hero = () => {
           </button>
         </div>
       </Link>
-
-      <Info />
     </div>
   );
 };
