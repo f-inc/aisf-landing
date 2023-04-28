@@ -14,7 +14,7 @@ const jakarta = Plus_Jakarta_Sans({
 const Home = () => {
   return (
     <div
-      className={`${jakarta.className} w-full bg-[url("/images/background.png")] bg-cover min-h-screen`}
+      className={`${jakarta.className} w-full min-h-screen`}
     >
       <SEO />
       <Header />
