@@ -19,7 +19,7 @@ const Info = () => {
       <div className="w-full border-y lg:border-x lg:border-y-0 border-white/[.12] p-10 flex gap-x-5 items-start">
         <Image src={Summit} alt="Keyboard" />
         <div className="-mt-1">
-          <div className="font-semibold text-xl">Hackathon</div>
+          <div className="font-semibold text-xl">Summit</div>
           <div className="opacity-75 mt-2">
             Join top experts and explore the latest in AI at the San Francisco
             Summit.
