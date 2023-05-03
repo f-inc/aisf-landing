@@ -5,6 +5,7 @@ import Marquee from "@/components/Marquee";
 import Hero from "@/components/Hero";
 import Info from "@/components/Info";
 import SEO from "@/components/SEO";
+import Events from "@/components/events";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ const Home = () => {
       <Marquee />
       <Hero />
       <Info />
+      <Events />
     </div>
   );
 };
