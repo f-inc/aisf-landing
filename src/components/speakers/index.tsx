@@ -36,7 +36,7 @@ const Speakers = () => {
   ];
 
   return (
-    <div className="mt-60 w-full flex justify-center">
+    <div className="pt-60 w-full flex justify-center" id="speakers">
       <div className="w-full max-w-screen-xl">
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our speakers

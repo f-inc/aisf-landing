@@ -4,7 +4,10 @@ import MultiEvent from "./MultiEvent";
 
 const Events = () => {
   return (
-    <div className="relative w-full flex justify-center mt-40 font-jakarta">
+    <div
+      className="relative w-full flex justify-center pt-40 font-jakarta"
+      id="events"
+    >
       <div className="w-full max-w-screen-xl px-5">
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Join the <br /> conversation

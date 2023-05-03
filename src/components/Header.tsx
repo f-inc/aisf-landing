@@ -19,9 +19,9 @@ const Header = () => {
         </Link>
         <div className="flex items-center">
           <div className="hidden sm:flex gap-x-10 mr-10">
-            <div>Events</div>
-            <div>Speakers</div>
-            <div>Sponsors</div>
+            <Link href="/#events">Events</Link>
+            <Link href="/#speakers">Speakers</Link>
+            <Link href="/#sponsors">Sponsors</Link>
           </div>
           <div className="relative w-40 h-10 mr-5 group -mt-1 container">
             <div className="absolute gradient-button w-[164px] -ml-0.5 h-12  rounded-full transition-all duration-300 ease-in-out"></div>
