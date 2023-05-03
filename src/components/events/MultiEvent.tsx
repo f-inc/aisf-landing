@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Ahmed from "images/speakers/ahmed.png";
-import HuggingFace from "images/speakers/hugging-face.png";
-import Farza from "images/speakers/farza.png";
+import Ahmed from "images/events/ahmed.png";
+import HuggingFace from "images/events/hugging-face.png";
+import Farza from "images/events/farza.png";
 
 const MultiEvent = () => {
   return (

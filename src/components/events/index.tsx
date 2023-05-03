@@ -4,13 +4,13 @@ import MultiEvent from "./MultiEvent";
 
 const Events = () => {
   return (
-    <div className="w-full flex justify-center mt-40 pb-40 font-jakarta">
-      <div className="w-full max-w-screen-xl h-10 px-5">
+    <div className="relative w-full flex justify-center mt-40 font-jakarta">
+      <div className="w-full max-w-screen-xl px-5">
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Join the <br /> conversation
         </div>
 
-        <div className="mt-20 w-full h-10 flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 gap-x-8 font-bold">
+        <div className="mt-20 w-full flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 gap-x-8 font-bold">
           <div className="w-full flex flex-col gap-y-5 lg:gap-y-8">
             <Time />
 
