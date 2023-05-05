@@ -20,7 +20,7 @@ const MultiEvent = () => {
         </div>
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">10-10:15AM</div>
-          <div className="flex items-center">
+          <div className="w-full flex items-center justify-between">
             <div className="">
               <div className="text-2xl">Gen AI + Trivia Panel</div>
               <div className="text-white/[.6]">w/ Ibrahim Ahmed</div>
@@ -30,7 +30,7 @@ const MultiEvent = () => {
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">11-11:30 AM</div>
-          <div className="flex items-center">
+          <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Hugging Face Keynote</div>
               <div className="text-white/[.6]">w/ Huggingface</div>
@@ -59,7 +59,7 @@ const MultiEvent = () => {
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">12:10-12:30 PM</div>
-          <div className="flex items-center">
+          <div className="w-full flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Farza Keynote</div>
               <div className="text-white/[.6]">w/ Farza</div>
@@ -75,7 +75,7 @@ const MultiEvent = () => {
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">1:15 - 1:30PM</div>
-          <div className="flex items-center">
+          <div className="w-full flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Emmanuel Talk</div>
               <div className="text-white/[.6]">w/ Emmanuel de Maistre</div>

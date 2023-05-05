@@ -42,8 +42,8 @@ const Speakers = () => {
           Meet our speakers
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-items-center gap-y-8 mt-16 lg:mt-24">
-          {speakers.map((speaker) => (
-            <Speaker {...speaker} />
+          {speakers.map((speaker, key) => (
+            <Speaker key={key} {...speaker} />
           ))}
         </div>
       </div>

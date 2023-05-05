@@ -33,15 +33,17 @@ const Sponsors = () => {
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our sponsors
         </div>
-        <div className="w-full mt-16 lg:mt-20 grid grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-4 justify-items-center">
-          {sponsors.map((image, key) => (
-            <div
-              key={key}
-              className="w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center"
-            >
-              <Image src={image} alt="sponsor" className="" />
-            </div>
-          ))}
+        <div className="flex w-full justify-center">
+          <div className="w-max mt-16 lg:mt-20 grid grid-cols-2 lg:grid-cols-5 gap-4 justify-items-center">
+            {sponsors.map((image, key) => (
+              <div
+                key={key}
+                className="w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5"
+              >
+                <Image src={image} alt="sponsor" className="" />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Speaker = ({ image, name, label }: ISpeaker) => {
       <Image src={image} alt="Emmanuel" className="w-60" />
 
       <div className="text-3xl font-bold mt-4">Emmanuel de Maistre</div>
-      <div className="text-lg mt-2 font-bold text-white/[.5] border border-white/[.1]">
+      <div className="text-lg mt-2 font-bold text-white/[.5]">
         Co-founder Scenario
       </div>
     </div>

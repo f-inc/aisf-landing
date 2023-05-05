@@ -6,7 +6,9 @@ import FIncPresents from "images/finc-presents.png";
 const Hero = () => {
   return (
     <div className="w-full flex flex-col font-jakarta items-center justify-center">
-      <Image src={FIncPresents} alt="AISF" className="mt-16 lg:mt-24" />
+      <Link href="https://f.inc/">
+        <Image src={FIncPresents} alt="AISF" className="mt-16 lg:mt-24" />
+      </Link>
       <div className="font-bold text-6xl lg:text-9xl text-center mt-8 lg:mt-10">
         an AI week <br /> for Builders
       </div>
