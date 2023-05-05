@@ -1,18 +1,12 @@
-import Image from "next/image";
-import AISF from "images/aisf.svg";
 import Link from "next/link";
-import FIncPresents from "images/finc-presents.png";
 
-const Hero = () => {
+const CTA = () => {
   return (
-    <div className="w-full flex flex-col font-jakarta items-center justify-center">
-      <Link href="https://f.inc/">
-        <Image src={FIncPresents} alt="AISF" className="mt-16 lg:mt-24" />
-      </Link>
-      <div className="font-bold text-6xl lg:text-9xl text-center mt-8 lg:mt-10">
-        an AI week <br /> for Builders
+    <div className="w-full flex flex-col items-center mt-20 lg:mt-32 mb-20">
+      <div className="font-bold text-6xl lg:text-7xl text-center mt-8 lg:mt-10">
+        AI week <br /> for Builders
       </div>
-      <div className="opacity-75 text-xl px-8 lg:px-0 lg:text-2xl mt-12 text-center max-w-3xl">
+      <div className="opacity-75 text-xl px-8 lg:px-0 lg:text-xl text-center mt-12 max-w-3xl">
         Join 1000+ builders in San Francisco for a week of hacking, curated
         mixers, exclusive workshops, and a full-day summit to end it off.
       </div>
@@ -33,4 +27,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default CTA;
