@@ -22,30 +22,34 @@ const Events = () => {
               date="May 15th"
               title="Hackathon Kickoff"
               label="Registration + Networking"
+              time="5-6PM"
             />
 
             <Event
               day="2: Tuesday"
               date="May 16th"
-              title="Hacking Sessions"
-              label="Speakers/Content TBD"
+              title="Women in AI Mixer"
+              label="Ft. OpenAI CTO"
+              time="5-6PM"
             />
 
             <Event
               day="3: Wednesday"
               date="May 17th"
-              title="Hacking Sessions"
-              label="Registration + Networking"
+              title="Golden Gate Trek"
+              label="Touch Grass w/ other Founders"
+              time="5-6PM"
+            />
+             <Event
+              day="4: Thursday"
+              date="May 18rd"
+              title="Founders, Inc. Open House"
+              label="Coworking @ The Lab"
+              time="12-6PM"
             />
           </div>
           <div className="w-full flex flex-col gap-y-5 lg:gap-y-8">
-            <Event
-              day="4: Wednesday"
-              date="May 3rd"
-              title="AWS + Xoogler Career Event"
-              label="Registration + Networking"
-            />
-
+           
             <MultiEvent />
           </div>
         </div>

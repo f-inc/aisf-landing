@@ -26,7 +26,7 @@ const Home = () => {
       <Events />
       <Speakers />
       <Sponsors />
-      <Marquee text="5th-6th May 2023" />
+      <Marquee text="May 15 - 19" />
       <CTA />
     </div>
   );
