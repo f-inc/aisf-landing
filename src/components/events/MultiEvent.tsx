@@ -100,7 +100,7 @@ Networking Break
           <div className="text-white/[.5] text-lg">1:30PM-2:10PM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Simulations and Agents</div>
+              <div className="text-2xl">Simulations and Agents Panel</div>
               <div className="text-white/[.6]">w/ a16z & Stanford</div>
             </div>
             <Image src={a16z} className="w-14 h-14 ml-6" alt="Farza" />
