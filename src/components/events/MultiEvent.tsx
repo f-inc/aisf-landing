@@ -25,7 +25,7 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Building a New Era</div>
-              <div className="text-white/[.6]">Opening Keynot,</div>
+              <div className="text-white/[.6]">Opening Keynote</div>
             </div>
             <Image src={Finc} className="w-14 h-14 ml-6" alt="Farza" />
           </div>

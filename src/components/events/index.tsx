@@ -29,7 +29,7 @@ const Events = () => {
               day="2: Tuesday"
               date="May 16th"
               title="Women in AI Mixer"
-              label="Ft. OpenAI CTO"
+              label="Panel + Mixer"
               time="5-6PM"
             />
 
@@ -42,7 +42,7 @@ const Events = () => {
             />
              <Event
               day="4: Thursday"
-              date="May 18rd"
+              date="May 18th"
               title="Founders, Inc. Open House"
               label="Coworking @ The Lab"
               time="12-6PM"
