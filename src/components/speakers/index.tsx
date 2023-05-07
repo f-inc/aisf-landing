@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import Emmanuel from "images/speakers/emmanuel.avif";
+import Jim from "images/speakers/jim.jpeg";
 import Farza from "images/speakers/farza.png";
 import Jeff from "images/speakers/jeff.png";
 import Saatchi from "images/speakers/saatchi.png";
@@ -19,9 +19,9 @@ const Speakers = () => {
       label: "Founder, Buildspace",
     },
     {
-      image: Emmanuel,
-      name: "Emmanuel de Maistre",
-      label: "CEO, Scenario",
+      image: Jim,
+      name: "Jim Fan",
+      label: "AI Scientist, Nvidia",
     },
     {
       image: Jeff,
