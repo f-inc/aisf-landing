@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Langchain from "images/events/langchain.png";
+import Langchain from "images/events/lang.png";
 import HuggingFace from "images/events/hugging-face.png";
 import Farza from "images/events/farza.png";
 import Finc from "images/events/finc.png";
 import a16z from "images/events/a16z.png";
+import Emm from "images/events/emm.png"
 
 const MultiEvent = () => {
   return (
@@ -91,7 +92,7 @@ Networking Break
               <div className="text-2xl">Fireside Chat</div>
               <div className="text-white/[.6]">w/ Emmanuel de Maistre</div>
             </div>
-            <Image src={Farza} className="w-14 h-14 ml-6" alt="Farza" />
+            <Image src={Emm} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
         </div>
 
@@ -102,7 +103,7 @@ Networking Break
               <div className="text-2xl">Simulations and Agents</div>
               <div className="text-white/[.6]">w/ a16z & Stanford</div>
             </div>
-            <Image src={Farza} className="w-14 h-14 ml-6" alt="Farza" />
+            <Image src={a16z} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
         </div>
       </div>
@@ -121,7 +122,7 @@ Networking Break
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">2:50PM-3:20PM</div>
         <div className="text-2xl lg:text-right">
-        OpenAI Fireside Chat
+        Women in AI Panel
         </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">

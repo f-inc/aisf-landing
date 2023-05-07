@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       <Link
-        href="https://fdotinc.typeform.com/to/tpgvDnhX"
+        href="https://lu.ma/aisf"
         target="_blank"
         rel="noopener noreferrer"
       >
