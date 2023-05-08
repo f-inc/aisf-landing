@@ -110,7 +110,7 @@ Networking Break
 
       <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg">2:10PM-2:30PM</div>
-        <div className="text-2xl">Gen. AI Prompt Off</div>
+        <div className="text-2xl">Gen. AI Prompt Battles</div>
       </div>
 
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
