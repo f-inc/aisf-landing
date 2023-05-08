@@ -132,13 +132,13 @@ Networking Break
         </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-        <div className="text-white/[.5] text-lg flex-none">3:35PM-4:05PM</div>
+        <div className="text-white/[.5] text-lg flex-none">3:35PM-4PM</div>
         <div className="text-2xl lg:text-right">
-        Closing Remarks
+        TBA
         </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-        <div className="text-white/[.5] text-lg flex-none">4:05PM-5PM</div>
+        <div className="text-white/[.5] text-lg flex-none">4PM-5PM</div>
         <div className="text-2xl lg:text-right">
         Ending Mixer
         </div>
