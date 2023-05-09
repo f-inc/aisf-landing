@@ -31,7 +31,7 @@ const Header = () => {
               rel="noopener noreferrer"
             >
               <button className="bg-black absolute -mt-[47px] z-50 group-hover:bg-[#222] transition-all duration-200 flex items-center justify-center font-bold rounded-full h-[44px] w-40 text-sm">
-                REGISTER NOW
+                VIEW ALL EVENTS
               </button>
             </Link>
           </div>
