@@ -28,7 +28,7 @@ const Events = () => {
             <Event
               day="2: Tuesday"
               date="May 16th"
-              title="Women in AI Mixer"
+              title="Google + Sudo Labs SEO Workshop"
               label="Panel + Mixer"
               time="5-6PM"
             />
@@ -43,8 +43,8 @@ const Events = () => {
              <Event
               day="4: Thursday"
               date="May 18th"
-              title="Founders, Inc. Open House"
-              label="Coworking @ The Lab"
+              title="Generative AI Mixer"
+              label="Networking + Coworking"
               time="12-6PM"
             />
           </div>
