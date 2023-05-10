@@ -31,7 +31,7 @@ const Info = () => {
         <div className="w-full border-y lg:border-x lg:border-y-0 border-white/[.12] py-10 lg:py-4 px-10 flex gap-x-5 items-start">
           <Image src={Summit} alt="Summit" />
           <div className="-mt-1">
-          <div className="flex flex-row items-start">
+            <div className="flex flex-row items-start">
               <a
                 href="https://lu.ma/aisf"
                 target="_blank"
@@ -51,7 +51,7 @@ const Info = () => {
         <div className="w-full py-10 lg:py-4 px-10 flex gap-x-5 items-start">
           <Image src={Events} alt="Events All Week" />
           <div className="-mt-1">
-          <div className="flex flex-row items-start">
+            <div className="flex flex-row items-start">
               <a
                 href="https://lu.ma/omarwasm"
                 target="_blank"

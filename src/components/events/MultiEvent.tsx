@@ -121,7 +121,7 @@ Networking Break
         </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-      <div className="text-white/[.5] text-lg">12:10PM-12:30PM</div>
+      <div className="text-white/[.5] text-lg">2:50PM-3:20PM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Is AI Here to Stay?</div>
