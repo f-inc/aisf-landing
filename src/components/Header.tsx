@@ -26,12 +26,12 @@ const Header = () => {
           <div className="relative w-40 h-10 mr-5 group -mt-1 container">
             <div className="absolute gradient-button w-[164px] -ml-0.5 h-12  rounded-full transition-all duration-300 ease-in-out"></div>
             <Link
-              href="https://lu.ma/aisf"
+              href="https://discord.gg/seEDMf62"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="bg-black absolute -mt-[47px] z-50 group-hover:bg-[#222] transition-all duration-200 flex items-center justify-center font-bold rounded-full h-[44px] w-40 text-sm">
-                VIEW ALL EVENTS
+                JOIN DISCORD
               </button>
             </Link>
           </div>
