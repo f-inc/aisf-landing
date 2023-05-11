@@ -28,7 +28,7 @@ const Events = () => {
             <Event
               day="2: Tuesday"
               date="May 16th"
-              title="Google + Sudo Labs SEO Workshop"
+              title="Google + sudolabs SEO Workshop"
               label="Panel + Mixer"
               time="5-6PM"
             />
@@ -45,7 +45,7 @@ const Events = () => {
               date="May 18th"
               title="Generative AI Mixer"
               label="Networking + Coworking"
-              time="12-6PM"
+              time="6-9PM"
             />
           </div>
           <div className="w-full flex flex-col gap-y-5 lg:gap-y-8">

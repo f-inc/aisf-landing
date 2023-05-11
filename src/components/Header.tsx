@@ -26,7 +26,7 @@ const Header = () => {
           <div className="relative w-40 h-10 mr-5 group -mt-1 container">
             <div className="absolute gradient-button w-[164px] -ml-0.5 h-12  rounded-full transition-all duration-300 ease-in-out"></div>
             <Link
-              href="https://discord.gg/seEDMf62"
+              href="https://discord.gg/26vb3up4"
               target="_blank"
               rel="noopener noreferrer"
             >
