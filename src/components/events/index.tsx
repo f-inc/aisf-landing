@@ -5,7 +5,7 @@ import MultiEvent from "./MultiEvent";
 const Events = () => {
   return (
     <div
-      className="relative w-full flex justify-center lg:pt-16 pt-40 font-jakarta"
+      className="relative w-full flex justify-center pt-16 lg:pt-40 font-jakarta"
       id="events"
     >
       <div className="w-full max-w-screen-xl px-5">
@@ -40,7 +40,7 @@ const Events = () => {
               label="Touch Grass w/ other Founders"
               time="5-6PM"
             />
-             <Event
+            <Event
               day="4: Thursday"
               date="May 18rd"
               title="Founders, Inc. Open House"
@@ -49,7 +49,6 @@ const Events = () => {
             />
           </div>
           <div className="w-full flex flex-col gap-y-5 lg:gap-y-8">
-           
             <MultiEvent />
           </div>
         </div>

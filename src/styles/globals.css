@@ -33,3 +33,7 @@ body {
   opacity: 1;
   border-radius: 9999px;
 }
+
+.font-feature {
+  font-feature-settings: "salt" on, "ss01" on;
+}

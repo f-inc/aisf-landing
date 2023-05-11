@@ -3,7 +3,7 @@ import Link from "next/link";
 const CTA = () => {
   return (
     <div className="w-full flex flex-col items-center mt-20 lg:mt-32 mb-20">
-      <div className="font-bold text-6xl lg:text-7xl text-center mt-8 lg:mt-10">
+      <div className="font-bold text-6xl lg:text-7xl text-center mt-8 lg:mt-10 font-feature">
         an AI week <br /> for Builders
       </div>
       <div className="opacity-75 text-xl px-8 lg:px-0 lg:text-xl text-center mt-12 max-w-3xl">
