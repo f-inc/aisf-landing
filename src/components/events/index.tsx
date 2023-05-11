@@ -18,34 +18,74 @@ const Events = () => {
             <Time />
 
             <Event
-              day="1: Monday"
+              i="1"
+              day="Monday"
               date="May 15th"
               title="Hackathon Kickoff"
-              label="Registration + Networking"
-              time="5-6PM"
+              events={[
+                {
+                  time: "9-10AM",
+                  label: "Leap API: Pancakes and Pixels",
+                },
+                {
+                  time: "5-7PM",
+                  label: "Hackathon Kickoff",
+                },
+              ]}
             />
 
             <Event
-              day="2: Tuesday"
+              i="2"
+              day="Tuesday"
               date="May 16th"
               title="Women in AI Mixer"
-              label="Ft. OpenAI CTO"
-              time="5-6PM"
+              events={[
+                {
+                  time: "All Day",
+                  label: "Hack Session @ Founders, Inc.",
+                },
+                {
+                  time: "5-6PM",
+                  label: "Google + Sudo Labs SEO Workshop",
+                },
+              ]}
             />
 
             <Event
-              day="3: Wednesday"
+              i="3"
+              day="Wednesday"
               date="May 17th"
               title="Golden Gate Trek"
-              label="Touch Grass w/ other Founders"
-              time="5-6PM"
+              events={[
+                {
+                  time: "All Day",
+                  label: "Hack Session @ Founders, Inc.",
+                },
+                {
+                  time: "5-6PM",
+                  label: "Hackathon Demos",
+                },
+                {
+                  time: "7-9PM",
+                  label: "Golden Gate Trek",
+                },
+              ]}
             />
             <Event
-              day="4: Thursday"
+              i="4"
+              day="Thursday"
               date="May 18rd"
               title="Founders, Inc. Open House"
-              label="Coworking @ The Lab"
-              time="12-6PM"
+              events={[
+                {
+                  time: "12-5PM",
+                  label: "Open Coworking @ Founders, Inc.",
+                },
+                {
+                  time: "6-9PM",
+                  label: "Generative AI Mixer",
+                },
+              ]}
             />
           </div>
           <div className="w-full flex flex-col gap-y-5 lg:gap-y-8">
