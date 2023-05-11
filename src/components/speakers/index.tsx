@@ -1,8 +1,8 @@
 import Image, { StaticImageData } from "next/image";
-import Emmanuel from "images/speakers/emmanuel.png";
+import Jim from "images/speakers/jim.jpeg";
 import Farza from "images/speakers/farza.png";
-import Furqan from "images/speakers/furqan.png";
-import Hubert from "images/speakers/hubert.png";
+import Jeff from "images/speakers/jeff.png";
+import Saatchi from "images/speakers/saatchi.png";
 import Speaker from "./Speaker";
 
 export interface ISpeaker {
@@ -14,24 +14,24 @@ export interface ISpeaker {
 const Speakers = () => {
   const speakers: ISpeaker[] = [
     {
-      image: Emmanuel,
-      name: "Emmanuel de Maistre",
-      label: "Co-founder Scenario",
-    },
-    {
       image: Farza,
       name: "Farza Majeed",
-      label: "Founder  Buildspace",
+      label: "Founder, Buildspace",
     },
     {
-      image: Furqan,
-      name: "Furqan Rydhan",
-      label: "Co-founder Scenario",
+      image: Jim,
+      name: "Jim Fan",
+      label: "AI Scientist, Nvidia",
     },
     {
-      image: Hubert,
-      name: "Hubert Thieblot",
-      label: "Founder Buildspace",
+      image: Jeff,
+      name: "Jeff Boudier",
+      label: "Head of Product, Hugging Face",
+    },
+    {
+      image: Saatchi,
+      name: "Edward Saatchi",
+      label: "Founder, Fable Studios",
     },
   ];
 
