@@ -4,18 +4,21 @@ import HuggingFace from "images/events/hugging-face.png";
 import Farza from "images/events/farza.png";
 import Finc from "images/events/finc.png";
 import a16z from "images/events/a16z.png";
-import Emm from "images/events/emm.png"
-import OpenAI from "images/speakers/openai.png"
+import Emm from "images/events/emm.png";
+import Scale from "images/speakers/scaleai.png";
+
 
 const MultiEvent = () => {
   return (
     <div className="w-full bg-white/[.05] border border-white/[.1] rounded-xl p-8 pb-0 text-lg">
-      <div className="text-[#01FF69]">
+      <div className="text-white/[.5]">
         {" "}
-        Day 5: Friday
+        Day 5 {""}
         <span className="text-white/[.5]">— May 19th</span>
       </div>
-      <div className="text-4xl mt-2">Summit</div>
+      <div className="text-4xl mt-2">
+        Friday <span className="text-[#01FF69]">Summit</span>
+      </div>
       <div className="flex flex-col mt-8">
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">9-10AM</div>
@@ -34,7 +37,7 @@ const MultiEvent = () => {
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">10:15AM-11AM</div>
           <div className="flex items-center justify-between">
-          <div className="lg:text-right">
+            <div className="lg:text-right">
               <div className="text-2xl">Gen. AI + Trivia Panel</div>
               <div className="text-white/[.6]">w/ Langchain</div>
             </div>
@@ -60,9 +63,7 @@ const MultiEvent = () => {
           <div className="text-white/[.5] text-lg flex-none">
             11:30AM-12:10PM
           </div>
-          <div className="text-2xl lg:text-right">
-Networking Break
-          </div>
+          <div className="text-2xl lg:text-right">Networking Break</div>
         </div>
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
@@ -116,40 +117,36 @@ Networking Break
 
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">2:30PM-2:50PM</div>
-        <div className="text-2xl lg:text-right">
-          Networking Break
-        </div>
+        <div className="text-2xl lg:text-right">Networking Break</div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-      <div className="text-white/[.5] text-lg">2:50PM-3:20PM</div>
-          <div className="flex items-center justify-between">
+        <div className="text-white/[.5] text-lg flex-none">2:50PM-3:20PM</div>
+        <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Is AI Here to Stay?</div>
-              <div className="text-white/[.6]">w/ OpenAI</div>
+              <div className="text-white/[.6]">w/ Scale AI</div>
             </div>
-            <Image src={OpenAI} className="w-14 h-14 ml-6" alt="Farza" />
+            <Image
+              src={Scale}
+              className="w-14 h-14 ml-6"
+              alt="Hugging Face"
+            />
           </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">3:20PM-3:35PM</div>
         <div className="text-2xl lg:text-right">
-        Hackathon Winner Announcement
+          Hackathon Winner Announcement
         </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-        <div className="text-white/[.5] text-lg flex-none">3:35PM-4PM</div>
-        <div className="text-2xl lg:text-right">
-        TBA
-        </div>
+        <div className="text-white/[.5] text-lg flex-none">3:35PM-4:05PM</div>
+        <div className="text-2xl lg:text-right">Closing Remarks</div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-        <div className="text-white/[.5] text-lg flex-none">4PM-5PM</div>
-        <div className="text-2xl lg:text-right">
-        Ending Mixer
-        </div>
+        <div className="text-white/[.5] text-lg flex-none">4:05PM-5PM</div>
+        <div className="text-2xl lg:text-right">Ending Mixer</div>
       </div>
-
-
     </div>
   );
 };

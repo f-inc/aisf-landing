@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="w-full p-5 font-jakarta">
+    <div className="w-full p-5">
       <div className="w-full h-[75px] border-[1px] rounded-full border-white/[.15] flex justify-between items-center">
         <Link
           href="https://twitter.com/fdotinc"

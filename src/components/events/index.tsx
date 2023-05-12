@@ -5,7 +5,7 @@ import MultiEvent from "./MultiEvent";
 const Events = () => {
   return (
     <div
-      className="relative w-full flex justify-center lg:pt-16 pt-40 font-jakarta"
+      className="relative w-full flex justify-center pt-16 lg:pt-40"
       id="events"
     >
       <div className="w-full max-w-screen-xl px-5">
@@ -18,38 +18,85 @@ const Events = () => {
             <Time />
 
             <Event
-              day="1: Monday"
+              i="1"
+              day="Monday"
               date="May 15th"
               title="Hackathon Kickoff"
-              label="Registration + Networking"
-              time="5-6PM"
+              events={[
+                {
+                  time: "9-10AM",
+                  label: "Leap API: Pancakes and Pixels",
+                },
+                {
+                  time: "5-7PM",
+                  label: "Hackathon Kickoff",
+                },
+              ]}
             />
 
             <Event
-              day="2: Tuesday"
+              i="2"
+              day="Tuesday"
               date="May 16th"
-              title="Google + sudolabs SEO Workshop"
-              label="Panel + Mixer"
-              time="5-6PM"
+              title="Women in AI Mixer"
+              events={[
+                {
+                  time: "All Day",
+                  label: "Hack Session @ Founders, Inc.",
+                },
+                {
+                  time: "11AM-1PM",
+                  label: "Hackathon Workshops",
+                },
+                {
+                  time: "5-6PM",
+                  label: "Google + sudolabs SEO Workshop",
+                },
+              ]}
             />
 
             <Event
-              day="3: Wednesday"
+              i="3"
+              day="Wednesday"
               date="May 17th"
               title="Golden Gate Trek"
-              label="Touch Grass w/ other Founders"
-              time="5-6PM"
+              events={[
+                {
+                  time: "All Day",
+                  label: "Hack Session @ Founders, Inc.",
+                },
+                {
+                  time: "6-8PM",
+                  label: "Hackathon Demos",
+                },
+              ]}
             />
-             <Event
-              day="4: Thursday"
-              date="May 18th"
-              title="Generative AI Mixer"
-              label="Networking + Coworking"
-              time="6-9PM"
+            <Event
+              i="4"
+              day="Thursday"
+              date="May 18rd"
+              title="Founders, Inc. Open House"
+              events={[
+                {
+                  time: "12-5PM",
+                  label: "Open Coworking @ Founders, Inc.",
+                },
+                {
+                  time: "1-2PM",
+                  label: "Philz Coffee Run",
+                },
+                {
+                  time: "5-6PM",
+                  label: "Microsoft M12 Fireside Chat",
+                },
+                {
+                  time: "6-9PM",
+                  label: "Generative AI Mixer w/ SamsungNEXT",
+                },
+              ]}
             />
           </div>
           <div className="w-full flex flex-col gap-y-5 lg:gap-y-8">
-           
             <MultiEvent />
           </div>
         </div>

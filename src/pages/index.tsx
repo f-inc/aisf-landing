@@ -9,6 +9,7 @@ import Events from "@/components/events";
 import Speakers from "@/components/speakers";
 import Sponsors from "@/components/Sponsors";
 import CTA from "@/components/CTA";
+import Background from "@/components/Background";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ const jakarta = Plus_Jakarta_Sans({
 const Home = () => {
   return (
     <div className={`${jakarta.className} w-full min-h-screen`}>
+      <Background />
       <SEO />
       <Header />
       <Marquee text="May 15 - 19" />

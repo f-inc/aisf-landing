@@ -10,20 +10,10 @@ import Scenario from "images/sponsors/scenario.png";
 import CircleLabs from "images/sponsors/circle-labs.png";
 import Lexica from "images/sponsors/lexica.png";
 import Microsoft from "images/sponsors/microsoft.png";
+import Samsung from "images/sponsors/samsung.png";
 
 const Sponsors = () => {
-  const sponsors = [
-    BitFrost,
-    Orangewood,
-    Leap,
-    Kayyo,
-    BetterBrain,
-    Banana,
-    Neurosity,
-    Scenario,
-    CircleLabs,
-    Lexica
-  ];
+  const sponsors = [Samsung, BitFrost, Orangewood, Leap, Kayyo, Banana];
 
   return (
     <div
@@ -34,23 +24,41 @@ const Sponsors = () => {
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our sponsors
         </div>
-        
-        <div className="flex w-full flex-col justify-center items-center">
-          <div className="w-max w-max-full mt-16 lg:mt-20 grid grid-cols-2 lg:grid-cols-5 gap-4 justify-items-center">
-              <div
-                className="col-span-2 lg:col-span-5 w-full h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5 lg:grid-cols-5"
-              >
-                <Image src={Microsoft} width={200} alt="sponsor" className="" />
+        <div className=" flex justify-center mt-16 lg:mt-20 px-4 sm:px-5">
+          <div className="w-full md:max-w-none flex flex-col md:flex-row gap-4 items-center">
+            <div className="w-full md:w-80 h-52 md:h-full bg-white/[.05] border border-white/[.1] rounded-lg flex items-center justify-center md:p-12">
+              <Image src={Microsoft} alt="sponsor" className="w-52" />
+            </div>
+            <div className="w-full">
+              <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-4">
+                {sponsors.map((image, key) => (
+                  <div
+                    key={key}
+                    className="w-full h-20 lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center"
+                  >
+                    <Image src={image} alt="sponsor" className="p-3 md:p-0 w-28" />
+                  </div>
+                ))}
               </div>
-            
-            {sponsors.map((image, key) => (
-              <div
-                key={key}
-                className="w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5"
-              >
-                <Image src={image} alt="sponsor" className="" />
+              <div className="w-full grid grid-cols-2 xl:grid-cols-4 mt-4 gap-4">
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image src={Neurosity} alt="sponsor" className="p-3 md:p-0" />
+                </div>
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image src={Scenario} alt="sponsor" className="p-3 md:p-0" />
+                </div>
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image
+                    src={CircleLabs}
+                    alt="sponsor"
+                    className="p-3 md:p-0"
+                  />
+                </div>
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image src={Lexica} alt="sponsor" className="p-3 md:p-0" />
+                </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>
