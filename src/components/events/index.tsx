@@ -42,7 +42,7 @@ const Events = () => {
               events={[
                 {
                   time: "All Day",
-                  label: "Hack Session @ Founders, Inc.",
+                  label: "Hacking @ Founders, Inc.",
                 },
                 {
                   time: "11AM-1PM",
@@ -63,11 +63,11 @@ const Events = () => {
               events={[
                 {
                   time: "All Day",
-                  label: "Hack Session @ Founders, Inc.",
+                  label: "Hacking @ Founders, Inc.",
                 },
                 {
                   time: "6-8PM",
-                  label: "Hackathon Demos",
+                  label: "Hackathon Demos, Judging, and Awards",
                 },
               ]}
             />
@@ -83,7 +83,7 @@ const Events = () => {
                 },
                 {
                   time: "1-2PM",
-                  label: "Philz Coffee Run",
+                  label: "Philz Coffee Walk & Talk",
                 },
                 {
                   time: "5-6PM",

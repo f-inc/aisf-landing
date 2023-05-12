@@ -7,7 +7,6 @@ import a16z from "images/events/a16z.png";
 import Emm from "images/events/emm.png";
 import Scale from "images/speakers/scaleai.png";
 
-
 const MultiEvent = () => {
   return (
     <div className="w-full bg-white/[.05] border border-white/[.1] rounded-xl p-8 pb-0 text-lg">
@@ -29,7 +28,9 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Opening Remarks</div>
-              <div className="text-white/[.6]">Furqan Rydhan, Founders, Inc.</div>
+              <div className="text-white/[.6]">
+                Furqan Rydhan, Founders, Inc.
+              </div>
             </div>
             {/* <Image src={Finc} className="w-14 h-14 ml-6" alt="Farza" /> */}
           </div>
@@ -39,7 +40,10 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Generative AI Panel</div>
-              <div className="text-white/[.6]">w/ Sharif Shameem, Lexica and Ankush Gola, Co-Founder, and SamsungNEXT</div>
+              <div className="text-white/[.6]">
+                w/ Sharif Shameem, Lexica and Ankush Gola, Co-Founder, and
+                SamsungNEXT
+              </div>
             </div>
             {/* <Image src={Langchain} className="w-14 h-14 ml-6" alt="Ahmed" /> */}
           </div>
@@ -48,8 +52,12 @@ const MultiEvent = () => {
           <div className="text-white/[.5] text-lg">11AM-11:30 AM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">The AI Community Building the Future</div>
-              <div className="text-white/[.6]">w/ Jeff Boudier, Product Director at Hugging Face</div>
+              <div className="text-2xl">
+                The AI Community Building the Future
+              </div>
+              <div className="text-white/[.6]">
+                w/ Jeff Boudier, Product Director at Hugging Face
+              </div>
             </div>
             {/* <Image
               src={HuggingFace}
@@ -68,14 +76,26 @@ const MultiEvent = () => {
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">11:50AM-12:10PM</div>
-          <div className="text-2xl">AI Powered Keynote</div>
+          <div className="flex items-center justify-between">
+            <div className="lg:text-right">
+              <div className="text-2xl">
+              Meet Atlas
+              </div>
+              <div className="text-white/[.6]">
+              Our first fully AI keynote
+              </div>
+            </div>
+            {/* <Image src={Emm} className="w-14 h-14 ml-6" alt="Farza" /> */}
+          </div>
         </div>
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">12:10PM-12:30PM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Keynote: The New Frontier of Education</div>
+              <div className="text-2xl">
+                Keynote: The New Frontier of Education
+              </div>
               <div className="text-white/[.6]">Farza Majeed, buildspace</div>
             </div>
             {/* <Image src={Farza} className="w-14 h-14 ml-6" alt="Farza" /> */}
@@ -91,8 +111,12 @@ const MultiEvent = () => {
           <div className="text-white/[.5] text-lg">1:10PM-1:30PM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">How a Simple Tweet Spawned a Company</div>
-              <div className="text-white/[.6]">Emmanuel de Maistre, Scenario</div>
+              <div className="text-2xl">
+                How a Simple Tweet Spawned a Company
+              </div>
+              <div className="text-white/[.6]">
+                Emmanuel de Maistre, Scenario
+              </div>
             </div>
             {/* <Image src={Emm} className="w-14 h-14 ml-6" alt="Farza" /> */}
           </div>
@@ -103,7 +127,9 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Panel: Simulations and Agents</div>
-              <div className="text-white/[.6]">Nvidia, Langchain, Stanford, a16z, Fable Simulation</div>
+              <div className="text-white/[.6]">
+                Nvidia, Langchain, Stanford, a16z, Fable Simulation
+              </div>
             </div>
             {/* <Image src={a16z} className="w-14 h-14 ml-6" alt="Farza" /> */}
           </div>
@@ -112,7 +138,12 @@ const MultiEvent = () => {
 
       <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg">2:10PM-2:30PM</div>
-        <div className="text-2xl">Generative AI Prompt Battles</div>
+        <div className="flex items-center justify-between">
+          <div className="lg:text-right">
+            <div className="text-2xl">Generative AI Prompt Battles</div>
+            <div className="text-white/[.6]">Players face off to see who's got the best image generation skills</div>
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
@@ -122,16 +153,16 @@ const MultiEvent = () => {
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">2:50PM-3:20PM</div>
         <div className="flex items-center justify-between">
-            <div className="lg:text-right">
-              <div className="text-2xl">Is AI Just Hype or Here to Stay?</div>
-              <div className="text-white/[.6]">Bihan Jiang, Scale AI</div>
-            </div>
-            {/* <Image
+          <div className="lg:text-right">
+            <div className="text-2xl">Is AI Just Hype or Here to Stay?</div>
+            <div className="text-white/[.6]">Bihan Jiang, Scale AI</div>
+          </div>
+          {/* <Image
               src={Scale}
               className="w-14 h-14 ml-6"
               alt="Hugging Face"
             /> */}
-          </div>
+        </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">3:20PM-3:35PM</div>
