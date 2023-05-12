@@ -24,7 +24,7 @@ const Sponsors = () => {
           Meet our sponsors
         </div>
         <div className=" flex justify-center mt-16 lg:mt-20 px-4 sm:px-5">
-          <div className="w-full max-w-xs md:max-w-none flex flex-col md:flex-row gap-4 items-center">
+          <div className="w-full md:max-w-none flex flex-col md:flex-row gap-4 items-center">
             <div className="w-full md:w-80 h-52 md:h-full bg-white/[.05] border border-white/[.1] rounded-lg flex items-center justify-center md:p-12">
               <Image src={Microsoft} alt="sponsor" className="w-52" />
             </div>
@@ -33,7 +33,7 @@ const Sponsors = () => {
                 {sponsors.map((image, key) => (
                   <div
                     key={key}
-                    className="w-full h-20 lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-0 sm:px-5"
+                    className="w-full h-20 lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center"
                   >
                     <Image src={image} alt="sponsor" className="p-3 md:p-0" />
                   </div>
