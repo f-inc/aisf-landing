@@ -22,7 +22,7 @@ const Event = ({
       <div className="text-4xl mt-2">{day}</div>
 
       {events.map(({ label, time }, key) => (
-        <>
+        <div key={key}>
           <div className="w-full h-[1px] bg-white/[.1] my-4 lg:my-8"></div>
           <div className="flex justify-between items-center gap-x-3">
             <div className="text-white/[.5] text-base lg:text-lg flex-shrink-0">
@@ -30,7 +30,7 @@ const Event = ({
             </div>
             <div className="text-base lg:text-2xl text-right">{label}</div>
           </div>
-        </>
+        </div>
       ))}
     </div>
   );

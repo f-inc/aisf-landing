@@ -17,7 +17,9 @@ const jakarta = Plus_Jakarta_Sans({
 
 const Home = () => {
   return (
-    <div className={`${jakarta.className} w-full min-h-screen`}>
+    <div
+      className={`${jakarta.className} w-full min-h-screen`}
+    >
       <SEO />
       <Header />
       <Marquee text="May 15 - 19" />
