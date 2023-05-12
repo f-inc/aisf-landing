@@ -11,7 +11,7 @@ const Hero = () => {
           <Image
             src={FIncPresents}
             alt="AISF"
-            className="mt-16 lg:mt-24 h-8 w-full"
+            className="mt-16 lg:mt-24 h-8 w-auto"
           />
         </Link>
       </div>
