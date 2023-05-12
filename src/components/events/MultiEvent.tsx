@@ -22,14 +22,14 @@ const MultiEvent = () => {
       <div className="flex flex-col mt-8">
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">9-10AM</div>
-          <div className="text-2xl">Registration + Mixer</div>
+          <div className="text-2xl">Registration + Networking</div>
         </div>
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">10AM-10:15AM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Building a New Era</div>
-              <div className="text-white/[.6]">Opening Keynote</div>
+              <div className="text-2xl">Opening Remarks</div>
+              <div className="text-white/[.6]">Furqan Rydhan, Founders, Inc.</div>
             </div>
             <Image src={Finc} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
@@ -38,8 +38,8 @@ const MultiEvent = () => {
           <div className="text-white/[.5] text-lg">10:15AM-11AM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Gen. AI + Trivia Panel</div>
-              <div className="text-white/[.6]">w/ Langchain</div>
+              <div className="text-2xl">Generative AI Panel</div>
+              <div className="text-white/[.6]">w/ Sharif Shameem, Lexica and Ankush Gola, Co-Founder, and SamsungNEXT</div>
             </div>
             <Image src={Langchain} className="w-14 h-14 ml-6" alt="Ahmed" />
           </div>
@@ -48,8 +48,8 @@ const MultiEvent = () => {
           <div className="text-white/[.5] text-lg">11AM-11:30 AM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Hugging Face Keynote</div>
-              <div className="text-white/[.6]">w/ Huggingface</div>
+              <div className="text-2xl">The AI Community Building the Future</div>
+              <div className="text-white/[.6]">w/ Jeff Boudier, Product Director at Hugging Face</div>
             </div>
             <Image
               src={HuggingFace}
@@ -61,7 +61,7 @@ const MultiEvent = () => {
 
         <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg flex-none">
-            11:30AM-12:10PM
+            11:30AM-11:50AM
           </div>
           <div className="text-2xl lg:text-right">Networking Break</div>
         </div>
@@ -75,24 +75,24 @@ const MultiEvent = () => {
           <div className="text-white/[.5] text-lg">12:10PM-12:30PM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Fireside Chat</div>
-              <div className="text-white/[.6]">w/ Farza Majeed</div>
+              <div className="text-2xl">Keynote: The New Frontier of Education</div>
+              <div className="text-white/[.6]">Farza Majeed, buildspace</div>
             </div>
             <Image src={Farza} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
         </div>
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-          <div className="text-white/[.5] text-lg">12:30PM-1:15PM</div>
+          <div className="text-white/[.5] text-lg">12:30PM-1:10PM</div>
           <div className="text-2xl">Lunch Break</div>
         </div>
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-          <div className="text-white/[.5] text-lg">1:15PM-1:30PM</div>
+          <div className="text-white/[.5] text-lg">1:10PM-1:30PM</div>
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Fireside Chat</div>
-              <div className="text-white/[.6]">w/ Emmanuel de Maistre</div>
+              <div className="text-white/[.6]">Emmanuel de Maistre, Scenario</div>
             </div>
             <Image src={Emm} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
@@ -103,7 +103,7 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Simulations and Agents Panel</div>
-              <div className="text-white/[.6]">w/ a16z & Stanford</div>
+              <div className="text-white/[.6]">Nvidia, Lanchain, a16z, Fable Simulation</div>
             </div>
             <Image src={a16z} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
@@ -112,7 +112,7 @@ const MultiEvent = () => {
 
       <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg">2:10PM-2:30PM</div>
-        <div className="text-2xl">Gen. AI Prompt Battles</div>
+        <div className="text-2xl">Generative AI Prompt Battles</div>
       </div>
 
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
@@ -123,8 +123,8 @@ const MultiEvent = () => {
         <div className="text-white/[.5] text-lg flex-none">2:50PM-3:20PM</div>
         <div className="flex items-center justify-between">
             <div className="lg:text-right">
-              <div className="text-2xl">Is AI Here to Stay?</div>
-              <div className="text-white/[.6]">w/ Scale AI</div>
+              <div className="text-2xl">Is AI Just Hype or Here to Stay?</div>
+              <div className="text-white/[.6]">Bihan Jiang, Scale AI</div>
             </div>
             <Image
               src={Scale}
@@ -136,15 +136,15 @@ const MultiEvent = () => {
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">3:20PM-3:35PM</div>
         <div className="text-2xl lg:text-right">
-          Hackathon Winner Announcement
+          Hackathon Winner Demos
         </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-        <div className="text-white/[.5] text-lg flex-none">3:35PM-4:05PM</div>
-        <div className="text-2xl lg:text-right">Closing Remarks</div>
+        <div className="text-white/[.5] text-lg flex-none">3:35PM-4:00PM</div>
+        <div className="text-2xl lg:text-right">Microsoft Closing Panel</div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
-        <div className="text-white/[.5] text-lg flex-none">4:05PM-5PM</div>
+        <div className="text-white/[.5] text-lg flex-none">4:00PM-5PM</div>
         <div className="text-2xl lg:text-right">Ending Mixer</div>
       </div>
     </div>
