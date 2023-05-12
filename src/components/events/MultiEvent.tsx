@@ -5,11 +5,13 @@ import Farza from "images/events/farza.png";
 import Finc from "images/events/finc.png";
 import a16z from "images/events/a16z.png";
 import Emm from "images/events/emm.png";
+import Scale from "images/speakers/scaleai.png";
+
 
 const MultiEvent = () => {
   return (
     <div className="w-full bg-white/[.05] border border-white/[.1] rounded-xl p-8 pb-0 text-lg">
-      <div className="text-[#01FF69]">
+      <div className="text-white/[.5]">
         {" "}
         Day 5 {""}
         <span className="text-white/[.5]">— May 19th</span>
@@ -27,7 +29,7 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Building a New Era</div>
-              <div className="text-white/[.6]">Opening Keynot,</div>
+              <div className="text-white/[.6]">Opening Keynote</div>
             </div>
             <Image src={Finc} className="w-14 h-14 ml-6" alt="Farza" />
           </div>
@@ -71,7 +73,7 @@ const MultiEvent = () => {
 
         <div className="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
           <div className="text-white/[.5] text-lg">12:10PM-12:30PM</div>
-          <div className="w-full flex items-center justify-between">
+          <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">Fireside Chat</div>
               <div className="text-white/[.6]">w/ Farza Majeed</div>
@@ -119,7 +121,17 @@ const MultiEvent = () => {
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">2:50PM-3:20PM</div>
-        <div className="text-2xl lg:text-right">Women in AI Panel</div>
+        <div className="flex items-center justify-between">
+            <div className="lg:text-right">
+              <div className="text-2xl">Is AI Here to Stay?</div>
+              <div className="text-white/[.6]">w/ Scale AI</div>
+            </div>
+            <Image
+              src={Scale}
+              className="w-14 h-14 ml-6"
+              alt="Hugging Face"
+            />
+          </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">3:20PM-3:35PM</div>

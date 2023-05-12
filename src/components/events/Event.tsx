@@ -16,7 +16,7 @@ const Event = ({
 }) => {
   return (
     <div className="w-full bg-white/[.05] border border-white/[.1] rounded-xl p-8 text-lg">
-      <div className="text-[#01FF69]">
+      <div className="text-white/[.5]">
         Day {i} <span className="text-white/[.5]">— {date}</span>
       </div>
       <div className="text-4xl mt-2">{day}</div>

@@ -10,9 +10,10 @@ import Scenario from "images/sponsors/scenario.png";
 import CircleLabs from "images/sponsors/circle-labs.png";
 import Lexica from "images/sponsors/lexica.png";
 import Microsoft from "images/sponsors/microsoft.png";
+import Samsung from "images/sponsors/samsung.png";
 
 const Sponsors = () => {
-  const sponsors = [BitFrost, Orangewood, Leap, Kayyo, BetterBrain, Banana];
+  const sponsors = [Samsung, BitFrost, Orangewood, Leap, Kayyo, Banana];
 
   return (
     <div
@@ -35,7 +36,7 @@ const Sponsors = () => {
                     key={key}
                     className="w-full h-20 lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center"
                   >
-                    <Image src={image} alt="sponsor" className="p-3 md:p-0" />
+                    <Image src={image} alt="sponsor" className="p-3 md:p-0 w-28" />
                   </div>
                 ))}
               </div>

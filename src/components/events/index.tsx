@@ -45,8 +45,12 @@ const Events = () => {
                   label: "Hack Session @ Founders, Inc.",
                 },
                 {
+                  time: "11AM-1PM",
+                  label: "Hackathon Workshops",
+                },
+                {
                   time: "5-6PM",
-                  label: "Google + Sudo Labs SEO Workshop",
+                  label: "Google + sudolabs SEO Workshop",
                 },
               ]}
             />
@@ -62,12 +66,8 @@ const Events = () => {
                   label: "Hack Session @ Founders, Inc.",
                 },
                 {
-                  time: "5-6PM",
+                  time: "6-8PM",
                   label: "Hackathon Demos",
-                },
-                {
-                  time: "7-9PM",
-                  label: "Golden Gate Trek",
                 },
               ]}
             />
@@ -82,8 +82,16 @@ const Events = () => {
                   label: "Open Coworking @ Founders, Inc.",
                 },
                 {
+                  time: "1-2PM",
+                  label: "Philz Coffee Run",
+                },
+                {
+                  time: "5-6PM",
+                  label: "Microsoft M12 Fireside Chat",
+                },
+                {
                   time: "6-9PM",
-                  label: "Generative AI Mixer",
+                  label: "Generative AI Mixer w/ SamsungNEXT",
                 },
               ]}
             />
