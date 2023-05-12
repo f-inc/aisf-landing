@@ -20,18 +20,16 @@ const Home = () => {
   return (
     <div className={`${jakarta.className} w-full min-h-screen`}>
       <Background />
-      <div className="z-50">
-        <SEO />
-        <Header />
-        <Marquee text="May 15 - 19" />
-        <Hero />
-        <Info />
-        <Events />
-        <Speakers />
-        <Sponsors />
-        <Marquee text="May 15 - 19" />
-        <CTA />
-      </div>
+      <SEO />
+      <Header />
+      <Marquee text="May 15 - 19" />
+      <Hero />
+      <Info />
+      <Events />
+      <Speakers />
+      <Sponsors />
+      <Marquee text="May 15 - 19" />
+      <CTA />
     </div>
   );
 };
