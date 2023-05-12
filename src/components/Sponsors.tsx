@@ -23,34 +23,38 @@ const Sponsors = () => {
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our sponsors
         </div>
-        <div className="flex justify-center mt-16 lg:mt-20">
-          <div className="flex flex-col md:flex-row gap-4 items-center">
+        <div className=" flex justify-center mt-16 lg:mt-20 px-4 sm:px-5">
+          <div className="w-full max-w-xs md:max-w-none flex flex-col md:flex-row gap-4 items-center">
             <div className="w-full md:w-80 h-52 md:h-full bg-white/[.05] border border-white/[.1] rounded-lg flex items-center justify-center md:p-12">
               <Image src={Microsoft} alt="sponsor" className="w-52" />
             </div>
-            <div className="w-max">
-              <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-4 justify-items-center">
+            <div className="w-full">
+              <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-4">
                 {sponsors.map((image, key) => (
                   <div
                     key={key}
-                    className="row-span-2 w-44 h-24 lg:w-72 lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5"
+                    className="w-full h-20 lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-0 sm:px-5"
                   >
-                    <Image src={image} alt="sponsor" className="" />
+                    <Image src={image} alt="sponsor" className="p-3 md:p-0" />
                   </div>
                 ))}
               </div>
               <div className="w-full grid grid-cols-2 xl:grid-cols-4 mt-4 gap-4">
-                <div className="row-span-2 w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
-                  <Image src={Neurosity} alt="sponsor" className="" />
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image src={Neurosity} alt="sponsor" className="p-3 md:p-0" />
                 </div>
-                <div className="row-span-2 w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
-                  <Image src={Scenario} alt="sponsor" className="" />
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image src={Scenario} alt="sponsor" className="p-3 md:p-0" />
                 </div>
-                <div className="row-span-2 w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
-                  <Image src={CircleLabs} alt="sponsor" className="" />
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image
+                    src={CircleLabs}
+                    alt="sponsor"
+                    className="p-3 md:p-0"
+                  />
                 </div>
-                <div className="row-span-2 w-44 h-24 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
-                  <Image src={Lexica} alt="sponsor" className="" />
+                <div className="w-full h-20 lg:w-full lg:h-24 rounded-lg bg-white/[.05] border border-white/[.1] flex items-center justify-center px-5">
+                  <Image src={Lexica} alt="sponsor" className="p-3 md:p-0" />
                 </div>
               </div>
             </div>
