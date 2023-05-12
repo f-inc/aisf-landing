@@ -14,11 +14,6 @@ import Microsoft from "images/sponsors/microsoft.png";
 const Sponsors = () => {
   const sponsors = [BitFrost, Orangewood, Leap, Kayyo, BetterBrain, Banana];
 
-  // Neurosity,
-  // Scenario,
-  // CircleLabs,
-  // Lexica,
-
   return (
     <div
       className="pt-28 lg:pt-60 w-full flex justify-center items-center mb-20 lg:mb-40"
