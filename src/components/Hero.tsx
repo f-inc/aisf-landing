@@ -6,13 +6,15 @@ import FIncPresents from "images/finc-presents.png";
 const Hero = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center">
-      <Link href="https://f.inc/">
-        <Image
-          src={FIncPresents}
-          alt="AISF"
-          className="mt-16 lg:mt-24 h-8 w-full"
-        />
-      </Link>
+      <div>
+        <Link href="https://f.inc/">
+          <Image
+            src={FIncPresents}
+            alt="AISF"
+            className="mt-16 lg:mt-24 h-8 w-full"
+          />
+        </Link>
+      </div>
       <div className="font-bold font-feature text-6xl lg:text-9xl text-center mt-8 lg:mt-10">
         an AI week <br /> for Builders
       </div>
