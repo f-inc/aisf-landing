@@ -26,6 +26,7 @@ const Events = () => {
                 {
                   time: "9-10AM",
                   label: "Leap API: Pancakes and Pixels",
+                  href: "https://lu.ma/leap-aisf",
                 },
                 {
                   time: "5-7PM",
@@ -51,6 +52,7 @@ const Events = () => {
                 {
                   time: "5-6PM",
                   label: "Google + sudolabs SEO Workshop",
+                  href: "https://partiful.com/e/FrBb8BOYKASHVsaCH9YX",
                 },
               ]}
             />
@@ -92,6 +94,7 @@ const Events = () => {
                 {
                   time: "6-9PM",
                   label: "Generative AI Mixer w/ SamsungNEXT",
+                  href: "https://partiful.com/e/FrBb8BOYKASHVsaCH9YX",
                 },
               ]}
             />
