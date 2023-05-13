@@ -3,6 +3,12 @@ import Jim from "images/speakers/jim.jpeg";
 import Farza from "images/speakers/farza.png";
 import Jeff from "images/speakers/jeff.png";
 import Saatchi from "images/speakers/saatchi.png";
+import Sharif from "images/speakers/sharif.jpg";
+import Ankush from "images/speakers/ankush.jpg";
+import Emmanuel from "images/speakers/emmanuel.avif";
+import Jack from "images/speakers/jack.webp";
+import Micheal from "images/speakers/micheal.jpg";
+import Behan from "images/speakers/behan.jpg";
 import Speaker from "./Speaker";
 
 export interface ISpeaker {
@@ -14,24 +20,59 @@ export interface ISpeaker {
 const Speakers = () => {
   const speakers: ISpeaker[] = [
     {
-      image: Farza,
-      name: "Farza Majeed",
-      label: "Founder, Buildspace",
+      name: "Sharif /n Shameem",
+      label: "Founder, Lexica.Art",
+      image: Sharif,
     },
     {
-      image: Jim,
-      name: "Jim Fan",
-      label: "AI Scientist, Nvidia",
+      name: "Ankush /n Gola",
+      label: "Co-Founder, Langchain",
+      image: Ankush,
     },
     {
-      image: Jeff,
-      name: "Jeff Boudier",
+      name: "Jeff /n Boudier",
       label: "Head of Product, Hugging Face",
+      image: Jeff,
     },
     {
+      name: "Farza /n Majeed",
+      label: "Founder, Buildspace",
+      image: Farza,
+    },
+    {
+      name: "Emmanuel de /n Maistre",
+      label: "Founder, Scenario",
+      image: Emmanuel,
+    },
+    {
+      name: "Edward /n Saatchi",
+      label: "CEO, Fable Simulation",
       image: Saatchi,
-      name: "Edward Saatchi",
-      label: "Founder, Fable Studios",
+    },
+    {
+      name: "Dr Jim /n Fan",
+      label: "Nvidia",
+      image: Jim,
+    },
+    {
+      name: "Joon Park",
+      label: "Stanford",
+      image: Jim,
+    },
+    {
+      name: "Jack Soslow",
+      label: "A16Z Gaming",
+      image: Jack,
+    },
+    {
+      name: "Michael Chang",
+      label: "Engineer, Langchain",
+      image: Micheal,
+    },
+    {
+      name: "Bihan Jiang",
+      label: "Scale AI",
+      image: Behan,
     },
   ];
 
