@@ -9,6 +9,7 @@ import Emmanuel from "images/speakers/emmanuel.avif";
 import Jack from "images/speakers/jack.webp";
 import Micheal from "images/speakers/micheal.jpg";
 import Behan from "images/speakers/behan.jpg";
+import Joon from "images/speakers/joon.jpg";
 import Speaker from "./Speaker";
 
 export interface ISpeaker {
@@ -57,7 +58,7 @@ const Speakers = () => {
     {
       name: "Joon Park",
       label: "Stanford",
-      image: Jim,
+      image: Joon,
     },
     {
       name: "Jack Soslow",
@@ -82,7 +83,7 @@ const Speakers = () => {
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our speakers
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-items-center gap-y-8 mt-16 lg:mt-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center justify-center gap-y-8 mt-16 lg:mt-24">
           {speakers.map((speaker, key) => (
             <Speaker key={key} {...speaker} />
           ))}
