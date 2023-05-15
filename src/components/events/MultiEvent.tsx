@@ -53,7 +53,7 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">
-                The AI Community Building the Future
+              Keynote: From Generative AI to Agents: Building ML with Hugging Face
               </div>
               <div className="text-white/[.6]">
                 w/ Jeff Boudier, Product Director at Hugging Face
@@ -94,7 +94,7 @@ const MultiEvent = () => {
           <div className="flex items-center justify-between">
             <div className="lg:text-right">
               <div className="text-2xl">
-                Keynote: The New Frontier of Education
+                Keynote: All of a Sudden, Everything is Possible
               </div>
               <div className="text-white/[.6]">Farza Majeed, buildspace</div>
             </div>
@@ -154,7 +154,7 @@ const MultiEvent = () => {
         <div className="text-white/[.5] text-lg flex-none">2:50PM-3:20PM</div>
         <div className="flex items-center justify-between">
           <div className="lg:text-right">
-            <div className="text-2xl">Is AI Just Hype or Here to Stay?</div>
+            <div className="text-2xl">Panel: How To Incorporate AI Into Your Product</div>
             <div className="text-white/[.6]">Bihan Jiang, Scale AI</div>
           </div>
           {/* <Image
