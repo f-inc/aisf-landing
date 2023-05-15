@@ -24,7 +24,7 @@ const Events = () => {
               title="Hackathon Kickoff"
               events={[
                 {
-                  time: "9-10AM",
+                  time: "11AM-1PM",
                   label: "Leap API: Pancakes and Pixels",
                   href: "https://lu.ma/leap-aisf",
                 },
