@@ -41,7 +41,7 @@ const MultiEvent = () => {
             <div className="lg:text-right">
               <div className="text-2xl">Generative AI Panel</div>
               <div className="text-white/[.6]">
-                w/ Sharif Shameem, Lexica and Ankush Gola, Co-Founder, and
+                w/ Sharif Shameem from Lexica, Ankush Gola from Langchain, and
                 SamsungNEXT
               </div>
             </div>
