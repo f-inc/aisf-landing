@@ -52,7 +52,7 @@ const Events = () => {
                 {
                   time: "5-6PM",
                   label: "Google + sudolabs SEO Workshop",
-                  href: "https://partiful.com/e/FrBb8BOYKASHVsaCH9YX",
+                  href: "https://partiful.com/e/ipQWYIotZcs7zOhmHsgT",
                 },
               ]}
             />
@@ -86,10 +86,12 @@ const Events = () => {
                 {
                   time: "1-2PM",
                   label: "Philz Coffee Walk & Talk",
+                  href: "https://lu.ma/aisf-philz"
                 },
                 {
                   time: "5-6PM",
                   label: "Microsoft M12 Fireside Chat",
+                  href: "https://lu.ma/aisf-m12"
                 },
                 {
                   time: "6-9PM",
