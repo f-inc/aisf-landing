@@ -155,7 +155,7 @@ const MultiEvent = () => {
         <div className="flex items-center justify-between">
           <div className="lg:text-right">
             <div className="text-2xl">Panel: How To Incorporate AI Into Your Product</div>
-            <div className="text-white/[.6]">Bihan Jiang, Scale AI</div>
+            <div className="text-white/[.6]">Glory Jain, OpenAI; Bihan Jiang, Scale AI; Alana Goyal, base case; Gloria Felicia</div>
           </div>
           {/* <Image
               src={Scale}
@@ -172,7 +172,10 @@ const MultiEvent = () => {
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">3:35PM-4:00PM</div>
-        <div className="text-2xl lg:text-right">Microsoft Closing Panel</div>
+        <div className="lg:text-right">
+            <div className="text-2xl">How Foundational Models are Being Used Today</div>
+            <div className="text-white/[.6]">Marco Casalaina VP Products, Azure Cognitive;  Beth Mouriño, Msft for Startups</div>
+          </div>
       </div>
       <div className="flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-center py-8 border-t border-white/[.1]">
         <div className="text-white/[.5] text-lg flex-none">4:00PM-5PM</div>
