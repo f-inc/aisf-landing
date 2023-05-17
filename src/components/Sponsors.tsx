@@ -1,6 +1,6 @@
 import Image from "next/image";
 import BitFrost from "images/sponsors/bitfrost.png";
-import Orangewood from "images/sponsors/orangewood.png";
+import Respell from "images/sponsors/respell.png";
 import Leap from "images/sponsors/leap.png";
 import Kayyo from "images/sponsors/kayyo.png";
 import BetterBrain from "images/sponsors/betterbrain.png";
@@ -13,7 +13,7 @@ import Microsoft from "images/sponsors/microsoft.png";
 import Samsung from "images/sponsors/samsung.png";
 
 const Sponsors = () => {
-  const sponsors = [Samsung, BitFrost, Orangewood, Leap, Kayyo, Banana];
+  const sponsors = [Samsung, BitFrost, Respell, Leap, Kayyo, Banana];
 
   return (
     <div
