@@ -24,7 +24,7 @@ const Events = () => {
               title="Hackathon Kickoff"
               events={[
                 {
-                  time: "9-10AM",
+                  time: "11AM-1PM",
                   label: "Leap API: Pancakes and Pixels",
                   href: "https://lu.ma/leap-aisf",
                 },
@@ -43,7 +43,7 @@ const Events = () => {
               events={[
                 {
                   time: "All Day",
-                  label: "Hack Session @ Founders, Inc.",
+                  label: "Hacking @ Founders, Inc.",
                 },
                 {
                   time: "11AM-1PM",
@@ -52,7 +52,7 @@ const Events = () => {
                 {
                   time: "5-6PM",
                   label: "Google + sudolabs SEO Workshop",
-                  href: "https://partiful.com/e/FrBb8BOYKASHVsaCH9YX",
+                  href: "https://partiful.com/e/ipQWYIotZcs7zOhmHsgT",
                 },
               ]}
             />
@@ -65,11 +65,11 @@ const Events = () => {
               events={[
                 {
                   time: "All Day",
-                  label: "Hack Session @ Founders, Inc.",
+                  label: "Hacking @ Founders, Inc.",
                 },
                 {
                   time: "6-8PM",
-                  label: "Hackathon Demos",
+                  label: "Hackathon Demos, Judging, and Awards",
                 },
               ]}
             />
@@ -85,11 +85,13 @@ const Events = () => {
                 },
                 {
                   time: "1-2PM",
-                  label: "Philz Coffee Run",
+                  label: "Philz Coffee Walk & Talk",
+                  href: "https://lu.ma/aisf-philz"
                 },
                 {
                   time: "5-6PM",
                   label: "Microsoft M12 Fireside Chat",
+                  href: "https://lu.ma/aisf-m12"
                 },
                 {
                   time: "6-9PM",

@@ -7,7 +7,7 @@ const Time = () => {
   const [seconds, setSeconds] = useState<string>("00");
 
   useEffect(() => {
-    const timestamp = new Date(2023, 4, 19, 16, 0, 0);
+    const timestamp = new Date(2023, 4, 15, 17, 0, 0);
 
     const intervalId = setInterval(() => {
       const duration = timestamp.getTime() - Date.now();
