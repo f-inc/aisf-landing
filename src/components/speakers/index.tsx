@@ -10,6 +10,9 @@ import Jack from "images/speakers/jack.webp";
 import Micheal from "images/speakers/micheal.jpg";
 import Behan from "images/speakers/behan.jpg";
 import Joon from "images/speakers/joon.jpg";
+import Marco from "images/speakers/marco.png";
+import Beth from "images/speakers/beth.png";
+
 import Speaker from "./Speaker";
 
 export interface ISpeaker {
@@ -56,24 +59,34 @@ const Speakers = () => {
       image: Jim,
     },
     {
-      name: "Joon Park",
+      name: "Joon /n Park",
       label: "Stanford",
       image: Joon,
     },
     {
-      name: "Jack Soslow",
+      name: "Jack /n Soslow",
       label: "A16Z Gaming",
       image: Jack,
     },
     {
-      name: "Michael Chang",
+      name: "Michael /n Chang",
       label: "Engineer, Langchain",
       image: Micheal,
     },
     {
-      name: "Bihan Jiang",
+      name: "Bihan /n Jiang",
       label: "Scale AI",
       image: Behan,
+    },
+    {
+      name: "Marco /n Casalaina",
+      label: "Vice President Of Products, Azure Cognitive Services",
+      image: Marco,
+    },
+    {
+      name: "Beth Mouriño Thurnher",
+      label: "Product & Design Leader at Microsoft for Startups",
+      image: Beth,
     },
   ];
 
