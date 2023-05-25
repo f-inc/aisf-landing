@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </Link>
       </div>
-      <div className="font-bold font-feature text-5xl lg:text-9xl text-center mt-8 lg:mt-10">
+      <div className="font-bold font-feature text-5xl lg:text-8xl text-center mt-8 lg:mt-10">
         the largest IRL <br /> AI community in SF
       </div>
       <div className="opacity-75 text-xl px-8 lg:px-0 lg:text-2xl mt-12 text-center max-w-3xl">
