@@ -7,7 +7,7 @@ const Rewind = () => {
     <>
       <div
         id="rewind2023"
-        className="flex flex-col justify-center items-center gap-y-10 lg:gap-y-16 pt-28 lg:pt-40"
+        className="flex flex-col justify-center items-center gap-y-10 lg:gap-y-16 pt-28 lg:pt-40 w-full lg:w-3/4 mx-auto"
       >
         <div className="font-bold font-feature text-4xl lg:text-7xl">
           2023 Rewind
